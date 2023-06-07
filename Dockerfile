@@ -1,4 +1,4 @@
-FROM node
+FROM node:latest
 
 LABEL maintainer = "Jordan Smithson - dontemailme@fake.com"
 LABEL description = "my first docker image"
