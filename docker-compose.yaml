@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  siteone:
+    image: dockerproject
+    ports:
+      - 6969:3000
+    deploy:
+      replicas: 3
+  sitetwo:
+    image: dockerproject
+    ports:
+      - 6970:3000
+    deploy:
+      replicas: 2
